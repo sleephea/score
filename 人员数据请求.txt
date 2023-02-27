@@ -1,0 +1,64 @@
+sEcho: 4 // 从2开始，请求一次递增一次
+iColumns: 14
+sColumns: 
+iDisplayStart: 0 // 从第几个数据开始显示
+iDisplayLength: 10 // 显示多少个，都是十个
+mDataProp_0: aac147
+mDataProp_1: ahc404name
+mDataProp_2: aac003
+mDataProp_3: aac004
+mDataProp_4: aac011name
+mDataProp_5: aac009name
+mDataProp_6: aae321
+mDataProp_7: ahc426name
+mDataProp_8: chz003
+mDataProp_9: hcc105
+mDataProp_10: chz083
+mDataProp_11: chz084
+mDataProp_12: chz085
+mDataProp_13: ahc400
+sSearch: undefined
+bRegex: false
+sSearch_0: 
+bRegex_0: false
+bSearchable_0: true
+sSearch_1: 
+bRegex_1: false
+bSearchable_1: true
+sSearch_2: 
+bRegex_2: false
+bSearchable_2: true
+sSearch_3: 
+bRegex_3: false
+bSearchable_3: true
+sSearch_4: 
+bRegex_4: false
+bSearchable_4: true
+sSearch_5: 
+bRegex_5: false
+bSearchable_5: true
+sSearch_6: 
+bRegex_6: false
+bSearchable_6: true
+sSearch_7: 
+bRegex_7: false
+bSearchable_7: true
+sSearch_8: 
+bRegex_8: false
+bSearchable_8: true
+sSearch_9: 
+bRegex_9: false
+bSearchable_9: true
+sSearch_10: 
+bRegex_10: false
+bSearchable_10: true
+sSearch_11: 
+bRegex_11: false
+bSearchable_11: true
+sSearch_12: 
+bRegex_12: false
+bSearchable_12: true
+sSearch_13: 
+bRegex_13: false
+bSearchable_13: true
+ahb500: 1827593 // 班号
