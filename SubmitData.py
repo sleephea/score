@@ -16,10 +16,10 @@ def SubmitData(allScoreDataFromExcel, classNumbers, cookie):
             for unitScore in allScoreDataFromExcel[i]:
                 if unitScore[2] == member["aae005"]:  # 如果判断Excel数据里某个班的某个学生电话号码与当前要提交信息的该电话号码一致，那么将他的成绩信息也查出来，以便信息提交
                     # 根据这些信息构建formData
-                    formData = {"hcc105": (1 if unitScore[8] == '是' else 0),  # 是否合格，合格为1
-                                "chz083": unitScore[6],  # 理论成绩
-                                "chz084": unitScore[7],  # 实操成绩
-                                "chz085": unitScore[5],  # 综合成绩
+                    formData = {"hcc105": (1 if unitScore[5] == '是' else 0),  # 是否合格，合格为1
+                                "chz083": unitScore[4],  # 理论成绩
+                                "chz084": '',  # 实操成绩
+                                "chz085": unitScore[3],  # 综合成绩
                                 "ahc400": member["ahc400"]}
                     print(formData)
                     # 提交这一位同学的成绩的信息
